@@ -9,6 +9,7 @@ Sample project using  [Batch.com](https://batch.com/) platform built with Ionic 
 -   Install Node.js 
 -   Install Android Studio and platform dependencies
 -   Install xCode and platform dependencies
+-   Install nvm - node version manager
 
 This sample run on: 
 
@@ -36,6 +37,28 @@ npm install
 
 
 _Note: You may need to add “sudo” in front of any global commands to install the utilities._
+
+## Troubleshooting
+
+Maybe during your `npm install`, some modules like `node-sass` may fail during installation. You can see an EACCES error when you try to install a package globally
+
+To fix this issue, you need to follow this article from NPM: https://docs.npmjs.com/getting-started/fixing-npm-permissions. 
+The best solution is to install [NVM](https://github.com/creationix/nvm), this is the best way to avoid permissions issues.
+
+Once, you have installed  NVM, you can update NPM using this following command: 
+
+```
+npm install npm@latest -g 
+```
+
+and run 
+
+3. Run `npm install` from the project root and install the dependencies:
+```
+npm install 
+```
+
+## Configuration of Batch service 
 
 Once, you have installed your dependencies you have to add your API key on Batch service folder(src/app/batch). 
 
@@ -80,6 +103,8 @@ Or you can run it on a real device using Xcode or Android Studio (strongly recom
 * [Ionic-Angular](https://ionicframework.com/) - The hybrid framework used
 * [Batch](https://batch.com) - Batch push provider
 
+
+## 
 
 
 
