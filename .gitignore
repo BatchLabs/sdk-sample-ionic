@@ -24,7 +24,6 @@ node_modules/
 tmp/
 temp/
 platforms/
-plugins/
 plugins/android.json
 plugins/ios.json
 $RECYCLE.BIN/
@@ -33,5 +32,4 @@ $RECYCLE.BIN/
 Thumbs.db
 UserInterfaceState.xcuserstate
 google-services.json
-google-services.json
-google-services.json
+

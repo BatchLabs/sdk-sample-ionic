@@ -1,0 +1,55 @@
+{
+  "_from": "com.batch.cordova",
+  "_id": "com.batch.cordova@2.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-pNX22FIJ7RmlvVI+JIFY/lF2Sws82JqnOCcLRFRl+jlRynbh6XnngIfx7MMdFk2wLqqKIuyLMhBX2ggt5De/Dw==",
+  "_location": "/com.batch.cordova",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "com.batch.cordova",
+    "name": "com.batch.cordova",
+    "escapedName": "com.batch.cordova",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/com.batch.cordova/-/com.batch.cordova-2.0.2.tgz",
+  "_shasum": "59c5e4de0ca00d5bc2c4e6e16396aeed26ddc775",
+  "_spec": "com.batch.cordova",
+  "_where": "/Users/Lionel/Developer/Batch-sample",
+  "author": {
+    "name": "Batch.com"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.batch.cordova",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "cordovaDependencies": {
+    "2.0.1": {
+      "cordova": ">=8.0.0",
+      "cordova-android": ">=7.0.0",
+      "cordova-ios": ">=4.5.0"
+    }
+  },
+  "deprecated": false,
+  "description": "Plugin for the Batch.com SDK",
+  "keywords": [
+    "batch",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "name": "com.batch.cordova",
+  "version": "2.0.2"
+}
