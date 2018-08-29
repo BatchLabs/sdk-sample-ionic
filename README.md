@@ -16,7 +16,7 @@ This sample run on:
 - @ionic/angular 4.0.0-beta.2
 - Ionic CLI : 4.1.1
 - Cordova CLI : 8.0.0
-- NodeJS : 10.6.0
+- NodeJS : 8.11.4 LTS
 - Xcode : 9.3.1
 - Android SDK Tools : 26.1.1
 
@@ -98,13 +98,14 @@ ionic cordova run Android
 
 Or you can run it on a real device using Xcode or Android Studio (strongly recommended). 
 
+
+
 ## Built With
 
 * [Ionic-Angular](https://ionicframework.com/) - The hybrid framework used
 * [Batch](https://batch.com) - Batch push provider
 
-
-## 
+ 
 
 
 
